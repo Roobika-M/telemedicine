@@ -1,37 +1,35 @@
-# dependencies
-/node_modules
-/package-lock.json
-/yarn.lock
-/pnpm-lock.yaml
+# ---------------------------
+# Mobile App (React Native + Expo + TypeScript)
+# ---------------------------
+expo
+react
+react-native
+typescript
+@react-navigation/native
+@react-navigation/stack
+react-native-screens
+react-native-safe-area-context
 
-# expo
-.expo
-.expo-shared
+# Later we’ll add:
+# react-native-sqlite-storage
+# react-native-encrypted-storage
+# tensorflow-lite-react-native
+# webrtc, etc.
 
-# build
-/dist
-/build
-/web-build
+# ---------------------------
+# Backend (Node.js + Express)
+# ---------------------------
+express
+cors
+multer
+bcrypt
+jsonwebtoken
+@supabase/supabase-js
 
-# typescript
-*.tsbuildinfo
-
-# macOS
-.DS_Store
-
-# Android / iOS
-/android
-/ios
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-expo-error.log
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.iml
+# ---------------------------
+# Web Dashboard (React + Chart.js)
+# ---------------------------
+react
+react-dom
+chart.js
+react-chartjs-2
