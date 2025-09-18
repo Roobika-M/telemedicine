@@ -1,35 +1,34 @@
-# ---------------------------
-# Mobile App (React Native + Expo + TypeScript)
-# ---------------------------
-expo
-react
-react-native
-typescript
-@react-navigation/native
-@react-navigation/stack
-react-native-screens
-react-native-safe-area-context
+# Node.js / Backend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
 
-# Later we’ll add:
-# react-native-sqlite-storage
-# react-native-encrypted-storage
-# tensorflow-lite-react-native
-# webrtc, etc.
+# React Native / Expo
+.expo/
+.expo-shared/
+web-build/
+android/
+ios/
+build/
+dist/
 
-# ---------------------------
-# Backend (Node.js + Express)
-# ---------------------------
-express
-cors
-multer
-bcrypt
-jsonwebtoken
-@supabase/supabase-js
+# Logs
+*.log
+logs/
+debug.log
 
-# ---------------------------
-# Web Dashboard (React + Chart.js)
-# ---------------------------
-react
-react-dom
-chart.js
-react-chartjs-2
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# SQLite local database
+*.db
+*.sqlite
+*.sqlite3
